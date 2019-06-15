@@ -1,0 +1,28 @@
+Ranks:
+  ZombieIII:
+    Nome: 'ZombieIII'
+    Custo: 5000
+    Prefix: '&2[ZombieIII]'
+    Padrao: true
+    Proximo_Rank: 'ZombieII'
+    Ultimo: false
+    Comandos:
+    - '/pex user %player% group set %proximo%'
+  ZombieII:
+    Nome: 'ZombieIII'
+    Custo: 10000
+    Prefix: '&2[ZombieII]'
+    Padrao: false
+    Proximo_Rank: 'ZombieI'
+    Ultimo: false
+    Comandos:
+    - '/pex user %player% group set %proximo%'
+  ZombieI:
+    Nome: 'ZombieI'
+    Custo: 20000
+    Prefix: '&2[ZombieI]'
+    Padrao: false
+    Proximo_Rank: ''
+    Ultimo: true
+    Comandos:
+    - '/pex user %player% group set %proximo%'

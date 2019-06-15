@@ -1,0 +1,10 @@
+main: me.slayerfear.RankupMain
+name: SFRankup
+version: 1.0
+author: SlayerFear
+commands:
+  ranks:
+  rankup:
+    aliases: [upar]
+  sfrankup:
+  
